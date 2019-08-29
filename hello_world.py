@@ -12,4 +12,4 @@ apm = ElasticAPM(app, logging=True)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, world!'
+    return 'Hello, world! Good!'
